@@ -24,19 +24,22 @@ Step 6:
 End the program. 
 
 ## PROGRAM:
+```
 ''' 
 Program for copying the contents from one file to another file
-Programmed By: K.R.Hashish Visya Sagar
-RegisterNumber: 212222230047
+Programmed By: kathiravan.p
+RegisterNumber: 212222230063
 '''
 with open("text1.txt",'r') as fp:
     msg1=fp.read()
 with open("copytxt",'w') as fp1:
     fp1.write(msg1)
+```
 ### OUTPUT:
 
-![5c](https://github.com/kathiravan13/copy-file/assets/119831303/7744f2b0-29fe-45d4-8277-7e76de97e897)
 
+
+![5cccccccc](https://github.com/kathiravan13/copy-file/assets/119831303/49b62788-8423-4fd7-9245-7f0628f0fdd8)
 
 ## RESULT:
 Thus the program is written to copy the contents from one file to another file.
